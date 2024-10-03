@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    /* background-image: url('b-4.jpeg');
+    background-repeat: no-repeat;
+    background-size:  100vw 100vh; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#search {
+    margin: 40px;
+    /* margin-left: -200px; */
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#home {
+    margin-right: -58px;
+}
+
+#about {
+    margin-right: 95px;
+}
+
+#service {
+    margin-right: -69px;
+}
+
+.bottom {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 420px;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 90px;
+    flex-direction: column;
+    bottom: 0px;
+}
+
+#songrange {
+    accent-color: orange;
+    width: 80vw;
+
+}
+
+#icon-container {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#masterplay {
+    margin: 14px;
+}
+
+#forward {
+    margin: 14px;
+}
+
+#backward {
+    margin: 14px;
+}
+
+.conatiner {
+    display: flex;
+    min-height: 66vh;
+    margin: 10px auto;
+    width: 70%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-image: url('background -2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+#album-name {
+    margin-left: 5px;
+}
+
+.songitems {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 5px;
+    /* border: 2px solid white; */
+    /* width: 400px;
+    height: 40px; */
+}
+
+.songitems:hover {
+    background-color: rgba(255, 255, 255, 0.665);
+    color: black;
+    border-radius: 10px;
+}
+
+#songpic{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
